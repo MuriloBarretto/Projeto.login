@@ -1,0 +1,96 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: helvetica;
+  color: #323232;
+  border: none;
+}
+body{
+  background-image: url(./imagens/pexels-piccinng-3075993.jpg);
+  background-size: cover;
+}
+a{
+  font-size: .8rem;
+}
+a:hover{
+  color: #08558b;
+}
+.container{
+  background-color: #FFF;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 30px;
+  margin-top: 10vh;
+  border-radius: 10px;
+  text-align: center;
+}
+form{
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+label, input{
+  display: block;
+  width: 100%;
+  text-align: left;
+}
+label{
+  font-weight: bold;
+  font-size: .8rem;
+}
+input{
+  border-bottom: 2px solid #323232;
+  padding: 10px;
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+input:focus{
+  border-bottom: 2px solid #08558b;
+}
+.forgot-pass{
+  text-align: right;
+  display: block;
+  color: #1B223C;
+}
+.forgot-pass:hover{
+  color: #08558b;
+  transition: .5s;
+}
+input[type="submit"] {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  border: none;
+  height: 40px;
+  border-radius: 20px;
+  margin-top: 30px;
+  color: #FFF;
+  background-color: #08558b;
+  cursor: pointer;
+}
+input[type="submit"]:hover{
+  background-color: #1B223C;
+  transition: .5S;
+} 
+#social, #social p{
+  margin-bottom: 20px;
+}
+#social i{
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  line-height: 40px;
+  color: #FFF;
+  margin: 0 5px;
+  cursor: pointer;
+}
+.fa-facebook-f{
+  background-color: #3b5998;
+}
+.fa-linkedin{
+  background-color: #0077B5;
+}
+#register p{
+margin-bottom: 10px;
+}
